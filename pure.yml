@@ -1,0 +1,185 @@
+information:
+  name: pure
+  background: dark
+  author: 'Norbert Dzikowski <norbert@perun.network>'
+
+palette:
+  fg: [0, 0, 93.75]
+  bg: [0, 0, 6.25]
+
+  white: [111, 0, 100]
+  darkgray: [0, 0, 20]
+  gray: [0, 0, 50]
+  suvagray: [0, 0, 56.25]
+  silver: [0, 0, 75]
+
+  lightgreen: [144, 100, 53]
+
+  red: [360, 98, 60]
+  orange: [30, 100, 48]
+  lightorange: [30, 100, 59]
+  yellow: [58, 100, 76]
+  brightyellow: [65, 100, 53]
+  sulu: [90, 100, 75]
+  green: [120, 100, 75]
+  aquamarine: [150, 100, 75]
+  cyan: [180, 100, 75]
+  azure: [210, 100, 75]
+  blue: [240, 100, 75]
+  cyanblue: [174, 100, 62]
+  purple: [270, 100, 75]
+  magenta: [300, 100, 75]
+  hotpink: [330, 100, 75]
+  pink: [304, 100, 50]
+
+  darkyellow: [60, 100, 20]
+
+  bg_red: [0, 25, 25]
+  bg_green: [120, 25, 25]
+  bg_cyan: [180, 25, 25]
+  bg_blue: [240, 25, 25]
+
+  line_grey: "#5C6370"
+
+highlights:
+  Normal: 'fg bg'
+
+  # Comment: ""
+  # Todo: ""
+  # Error: ""
+
+  # Constant: ""
+  # Statement: ""
+  # Type: ""
+  # Keyword: ""
+  # Identifier: ""
+  # PreProc: ""
+  # Title: ""
+  # Boolean: ""
+  # Function: ""
+  # String: ""
+  # Special: ""
+  # Underlined: ""
+
+  # Cursor: ""
+  # Search: ""
+  # Visual: ""
+  # MatchParen: ""
+  # NonText: ""
+  # SpecialKey: ""
+
+  # ErrorMsg: ""
+  # WarningMsg: ""
+  # ModeMsg: ""
+  # MoreMsg: ""
+  # Question: ""
+  # Directory: ""
+
+  # DiffAdd: ""
+  # DiffDelete: ""
+  # DiffChange: ""
+  # DiffText: ""
+  # Folded: ""
+  # FoldColumn: ""
+  # Pmenu: ""
+  # PmenuSel: ""
+  # PmenuSbar: ""
+  # PmenuThumb: ""
+  # WildMenu: ""
+  # LineNr: ""
+  # CursorLine: ""
+  # CursorColumn: ""
+  # CursorLineNr: ""
+
+  # SpellBad: ""
+  # SpellCap: ""
+  # SpellRare: ""
+  # SpellLocal: ""
+
+  # diffAdded: ""
+  # diffRemoved: ""
+  # diffFile: ""
+  # diffNewFile: ""
+  # diffOldFile: ""
+
+  # rubyArrayDelimiter: ""
+  # rubyCurlyBlockDelimiter: ""
+
+  # SignColumn: ""
+  # GitGutterAdd: ""
+  # GitGutterDelete: ""
+  # GitGutterChange: ""
+  # TabLineFill: ""
+  # TabLine: ""
+  # TabLineSel: ""
+  # StatusLine: ""
+  # StatusLineNC: ""
+  # StatusLineTerm: ""
+  # StatusLineTermNC: ""
+  # VertSplit: ""
+  # ColorColumn: ""
+  # QuickFixLine: ""
+  # ToolbarLine: ""
+  # ToolbarButton: ""
+  # debugPc: ""
+  # debugBreakpoint: ""
+
+  # Treesitter
+  TSError: "orange - u"
+  #TSPunctDelimiter: ""
+  #TSPunctBracket: ""
+  #TSPunctSpecial: ""
+
+  ## Constants
+  TSConstant: "blue"
+  TSConstBuiltin: "#FF00FF - b"
+  TSConstMacro: "gray - b"
+  #TSStringRegex: ""
+  TSString: "lightorange"
+  #TSStringEscape: ""
+  #TSCharacter: ""
+  #TSNumber: ""
+  #TSBoolean: ""
+  #TSFloat: ""
+  #TSAnnotation: ""
+  #TSAttribute: ""
+  #TSNamespace: ""
+  # Functions
+  TSFuncBuiltin: "yellow - b"
+  TSFunction: "yellow"
+  TSFuncMacro: "line_grey - b"
+  #TSParameter: ""
+  #TSParameterReference: ""
+  TSMethod: "pink - b"
+  TSField: "pink"
+  TSProperty: "green"
+  TSConstructor: "white - b"
+  ## Keywords
+  TSConditional: "pink - b"
+  TSRepeat: "pink - b"
+  #TSLabel: ""
+  TSKeyword: "cyanblue - b"
+  TSKeywordFunction: "blue - b"
+  TSKeywordOperator: "cyanblue - b"
+  TSOperator: "cyanblue - b"
+  TSException: "- #FF00FF"
+  TSType: "lightgreen - b"
+  TSTypeBuiltin: "lightgreen - b"
+  TSStructure: "- #FF00FF"
+  TSInclude: "pink - b"
+  # Variable
+  TSVariable: "red"
+  TSVariableBuiltin: "red - b"
+  ## Text
+  #TSText: ""
+  #TSStrong: ""
+  #TSEmphasis: ""
+  #TSUnderline: ""
+  #TSTitle: ""
+  #TSLiteral: ""
+  #TSURI: ""
+  ## Tags
+  #TSTag: ""
+  #TSTagDelimiter: ""
+
+terminal: 'bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg'
